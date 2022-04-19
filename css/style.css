@@ -1,3 +1,40 @@
 /*-----------------
-    CONTAINERS
+    BUTTONS
 -----------------*/
+.ms_btn-header {
+    background-color: #363636;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/*-----------------
+    HEADER
+-----------------*/
+.header-top {
+    background-color: #000;
+}
+
+.sony-logo {
+    height: 14px;
+}
+
+.header-bottom ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header-bottom ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-bottom ul li i {
+    color: #acacac;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.lens {
+    height: 20px;
+}
