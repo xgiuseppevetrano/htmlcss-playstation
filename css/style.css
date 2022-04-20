@@ -183,3 +183,11 @@ body {
 .new-discounts {
     margin: 50px 0;
 }
+
+/*----------------------------------
+    MAIN - PLAYSTATION NOW SECTION
+----------------------------------*/
+.playstation-now {
+    background-color: #161c3b;
+    margin-bottom: 50px;
+}
