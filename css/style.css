@@ -28,6 +28,11 @@ body {
     background-color: #363636;
 }
 
+.ms_btn-white {
+    background-color: #d9dadc;
+    color: #0d6efd;
+}
+
 /*-----------------
     HEADER
 -----------------*/
@@ -158,3 +163,11 @@ body {
 /*-----------------------------------
     MAIN - PLAYSTATION PLUS SECTION
 -----------------------------------*/
+.playstation-plus {
+    background-color: #bebcbb;
+    margin-bottom: 50px;
+}
+
+/*---------------------------------
+    MAIN - NEW DISCOUNTS SECTION
+---------------------------------*/
