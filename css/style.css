@@ -17,10 +17,6 @@ body {
     background-color: #363636;
 }
 
-.ms_btn-red {
-    background-color: #cd3d0f;
-}
-
 /*-----------------
     HEADER
 -----------------*/
@@ -86,4 +82,34 @@ body {
 
 /*-------------------------------
     MAIN - PLAYSTATION SECTION
+-------------------------------*/
+.playstation {
+    color: #000;
+    margin-top: 80px;
+}
+
+.playstation-title h6 {
+    text-transform: uppercase;
+    color: #0273ce;
+}
+
+.text-gray {
+    color: #7e7e7e; 
+}
+
+.console-img {
+    height: 350px;
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+.active-opacity {
+    opacity: 1;
+    border-bottom: 2px solid #0273ce;
+}
+
+/*-------------------------------
+    MAIN - NEW RELEASES SECTION
 -------------------------------*/
