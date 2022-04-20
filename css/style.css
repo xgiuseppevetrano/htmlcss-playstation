@@ -113,3 +113,29 @@ body {
 /*-------------------------------
     MAIN - NEW RELEASES SECTION
 -------------------------------*/
+.new-releases {
+    background-color: #1f1f1f;
+}
+
+.takes-two-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.takes-two {
+    padding: 60px 0 40px;
+}
+
+.takes-two-img {
+    height: 150px;
+}
+
+.new-releases-img img {
+    border-radius: 15px;
+}
+
+/*-------------------------------
+    MAIN - PLAYSTATION 4 SECTION
+-------------------------------*/
