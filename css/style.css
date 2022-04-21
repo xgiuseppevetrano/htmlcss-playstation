@@ -9,18 +9,6 @@ section {
     margin-bottom: 50px;
 }
 
-ul li {
-    list-style: none;
-}
-
-ul li a {
-    text-decoration: none;
-}
-
-i:not(.fa-bars) {
-    font-size: 10px;
-}
-
 /*--------------------
     BACKGROUND COLOR
 --------------------*/
@@ -92,23 +80,21 @@ i:not(.fa-bars) {
     background-color: #fff;
 }
 
-.header-bottom ul li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.header-bottom ul li a {
-    color: #000;
-}
-
-.header-bottom ul li i {
-    color: #acacac;
-    font-size: 12px;
-    cursor: pointer;
-}
-
 .lens {
     height: 20px;
+}
+
+.chevron-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: middle;
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    border-right: 0.3em solid transparent;
+    border-top: 2px solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
 }
 
 /*------------------------
@@ -133,8 +119,13 @@ i:not(.fa-bars) {
     border-radius: 15px;
 }
 
-.action-img {
+.always-active-img {
     border: 2px solid #0273ce;
+    padding: 3px;
+}
+
+.active-img {
+    border: 2px solid transparent;
     padding: 3px;
 }
 
@@ -190,8 +181,13 @@ i:not(.fa-bars) {
     height: 50px;
 }
 
+footer nav ul li {
+    list-style: none;
+}
+
 footer nav ul li a {
     color: #fff;
+    text-decoration: none;
 }
 
 /*--------------------------
@@ -200,4 +196,39 @@ footer nav ul li a {
 .opacity:hover {
     opacity: 1;
     border-color: #0273ce;
+}
+
+.active-img:hover {
+    border-color: #0273ce;
+}
+
+.up-img:hover {
+    transform: translateY(-10%);
+}
+
+.ms_btn-black.ms_btn-hover:hover {
+    outline: 2px solid #363636;
+    outline-offset: 2px;
+    color: #fff;
+}
+
+.btn-danger.ms_btn-hover:hover {
+    outline: 2px solid #dc3545;
+    outline-offset: 2px;
+}
+
+.btn-primary.ms_btn-hover:hover {
+    outline: 2px solid #0d6efd;
+    outline-offset: 2px;
+}
+
+.ms_btn-primary-invert.ms_btn-hover:hover {
+    outline: 2px solid #d9dadc;
+    outline-offset: 2px;
+    color: #0d6efd;
+}
+
+.ms_btn-white.ms_btn-hover:hover {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
 }
