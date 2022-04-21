@@ -9,6 +9,18 @@ section {
     margin-bottom: 50px;
 }
 
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+i:not(.fa-bars) {
+    font-size: 10px;
+}
+
 /*--------------------
     BACKGROUND COLOR
 --------------------*/
@@ -22,6 +34,10 @@ section {
 
 .ms_bg-color-tertiary {
     background-color: #161c3b;
+}
+
+.ms_bg-color-quaternary {
+    background-color: #00439c;
 }
 
 /*-----------------
@@ -77,13 +93,11 @@ section {
 }
 
 .header-bottom ul li {
-    list-style: none;
     display: inline-block;
     margin: 0 10px;
 }
 
 .header-bottom ul li a {
-    text-decoration: none;
     color: #000;
 }
 
@@ -158,6 +172,26 @@ section {
 
 .new-releases-img img {
     border-radius: 15px;
+}
+
+/*-------------
+    FOOTER
+-------------*/
+.play-small-logo {
+    color: #fff;
+    height: 80px;
+}
+
+.globe-img {
+    height: 20px;
+}
+
+.sony-footer-logo {
+    height: 50px;
+}
+
+footer nav ul li a {
+    color: #fff;
 }
 
 /*--------------------------
