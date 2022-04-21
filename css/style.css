@@ -5,6 +5,25 @@ body {
     color: #fff;
 }
 
+section {
+    margin-bottom: 50px;
+}
+
+/*--------------------
+    BACKGROUND COLOR
+--------------------*/
+.ms_bg-color-primary {
+    background-color: #1f1f1f;
+}
+
+.ms_bg-color-secondary {
+    background-color: #bebcbb;
+}
+
+.ms_bg-color-tertiary {
+    background-color: #161c3b;
+}
+
 /*-----------------
     TYPO
 -----------------*/
@@ -81,10 +100,6 @@ body {
 /*------------------------
     MAIN - HERO SECTION
 ------------------------*/
-.hero {
-    margin-bottom: 90px;
-}
-
 .hero-banner {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -105,28 +120,21 @@ body {
 }
 
 .action-img {
-    border: 2px solid #0072ce;
+    border: 2px solid #0273ce;
     padding: 3px;
 }
 
 /*-------------------------------
     MAIN - PLAYSTATION SECTION
 -------------------------------*/
-.playstation {
-    margin: 80px 0 40px;
-}
-
 .playstation-title h6 {
     text-transform: uppercase;
     color: #0273ce;
 }
 
-.console-img {
-    height: 350px;
-}
-
 .opacity {
     opacity: 0.6;
+    border-bottom: 2px solid transparent;
 }
 
 .active-opacity {
@@ -137,12 +145,6 @@ body {
 /*-------------------------------
     MAIN - NEW RELEASES SECTION
 -------------------------------*/
-.new-releases {
-    background-color: #1f1f1f;
-    margin-bottom: 60px;
-    padding-bottom: 60px;
-}
-
 .takes-two-banner {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -154,40 +156,14 @@ body {
     padding: 60px 0 40px;
 }
 
-.takes-two-img {
-    height: 150px;
-}
-
 .new-releases-img img {
     border-radius: 15px;
 }
 
-/*--------------------------------
-    MAIN - PLAYSTATION 4 SECTION
---------------------------------*/
-.playstation-4 {
-    margin-bottom: 70px;
-}
-
-/*-----------------------------------
-    MAIN - PLAYSTATION PLUS SECTION
------------------------------------*/
-.playstation-plus {
-    background-color: #bebcbb;
-    margin-bottom: 50px;
-}
-
-/*---------------------------------
-    MAIN - NEW DISCOUNTS SECTION
----------------------------------*/
-.new-discounts {
-    margin: 50px 0;
-}
-
-/*----------------------------------
-    MAIN - PLAYSTATION NOW SECTION
-----------------------------------*/
-.playstation-now {
-    background-color: #161c3b;
-    margin-bottom: 50px;
+/*--------------------------
+    EFFECTS & ANIMATIONS
+--------------------------*/
+.opacity:hover {
+    opacity: 1;
+    border-color: #0273ce;
 }
