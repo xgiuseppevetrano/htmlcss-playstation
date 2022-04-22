@@ -108,7 +108,8 @@ section {
 }
 
 .returnal {
-    padding: 230px 0 40px;
+    padding: 250px 0 40px;
+    margin-top: 120px;
 }
 
 .returnal-img {
@@ -200,6 +201,10 @@ footer nav ul li a {
 
 .active-img:hover {
     border-color: #0273ce;
+}
+
+.up-img {
+    transition: transform 0.8s;
 }
 
 .up-img:hover {
