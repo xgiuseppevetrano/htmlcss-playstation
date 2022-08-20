@@ -6,7 +6,7 @@ body {
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 /*--------------------
@@ -47,7 +47,7 @@ section {
     BUTTONS
 -----------------*/
 .ms_btn {
-    border-radius: 20px;
+    border-radius: 1.25rem;
     color: #fff;
 }
 
@@ -73,7 +73,7 @@ section {
 }
 
 .sony-logo {
-    height: 14px;
+    height: .875rem;
 }
 
 .header-bottom {
@@ -81,7 +81,7 @@ section {
 }
 
 .lens {
-    height: 20px;
+    height: 1.25rem;
 }
 
 .chevron-toggle::after {
@@ -92,7 +92,7 @@ section {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     border-right: 0.3em solid transparent;
-    border-top: 2px solid transparent;
+    border-top: .125rem solid transparent;
     border-bottom: 0;
     border-left: 0.3em solid transparent;
 }
@@ -108,26 +108,26 @@ section {
 }
 
 .returnal {
-    padding: 250px 0 40px;
-    margin-top: 120px;
+    padding: 15.625rem 0 2.5rem;
+    margin-top: 7.5rem;
 }
 
 .returnal-img {
-    height: 40px;
+    height: 2.5rem;
 }
 
 .hero-play img {
-    border-radius: 15px;
+    border-radius: .9375rem;
 }
 
 .always-active-img {
-    border: 2px solid #0273ce;
-    padding: 3px;
+    border: .125rem solid #0273ce;
+    padding: .1875rem;
 }
 
 .active-img {
-    border: 2px solid transparent;
-    padding: 3px;
+    border: .125rem solid transparent;
+    padding: .1875rem;
 }
 
 /*-------------------------------
@@ -140,12 +140,12 @@ section {
 
 .opacity {
     opacity: 0.6;
-    border-bottom: 2px solid transparent;
+    border-bottom: .125rem solid transparent;
 }
 
 .active-opacity {
     opacity: 1;
-    border-bottom: 2px solid #0273ce;
+    border-bottom: .125rem solid #0273ce;
 }
 
 /*-------------------------------
@@ -159,11 +159,11 @@ section {
 }
 
 .takes-two {
-    padding: 60px 0 40px;
+    padding: 3.75rem 0 2.5rem;
 }
 
 .new-releases-img img {
-    border-radius: 15px;
+    border-radius: .9375rem;
 }
 
 /*-------------
@@ -171,15 +171,15 @@ section {
 -------------*/
 .play-small-logo {
     color: #fff;
-    height: 80px;
+    height: 5rem;
 }
 
 .globe-img {
-    height: 20px;
+    height: 1.25rem;
 }
 
 .sony-footer-logo {
-    height: 50px;
+    height: 3.125rem;
 }
 
 footer nav ul li {
@@ -212,28 +212,28 @@ footer nav ul li a {
 }
 
 .ms_btn-black.ms_btn-hover:hover {
-    outline: 2px solid #363636;
-    outline-offset: 2px;
+    outline: .125rem solid #363636;
+    outline-offset: .125rem;
     color: #fff;
 }
 
 .btn-danger.ms_btn-hover:hover {
-    outline: 2px solid #dc3545;
-    outline-offset: 2px;
+    outline: .125rem solid #dc3545;
+    outline-offset: .125rem;
 }
 
 .btn-primary.ms_btn-hover:hover {
-    outline: 2px solid #0d6efd;
-    outline-offset: 2px;
+    outline: .125rem solid #0d6efd;
+    outline-offset: .125rem;
 }
 
 .ms_btn-primary-invert.ms_btn-hover:hover {
-    outline: 2px solid #d9dadc;
-    outline-offset: 2px;
+    outline: .125rem solid #d9dadc;
+    outline-offset: .125rem;
     color: #0d6efd;
 }
 
 .ms_btn-white.ms_btn-hover:hover {
-    outline: 2px solid #fff;
-    outline-offset: 2px;
+    outline: .125rem solid #fff;
+    outline-offset: .125rem;
 }
